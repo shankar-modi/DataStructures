@@ -13,6 +13,7 @@ public class SLLDeleteFromEnd {
         head = SLLUitility.createLinkedLIst(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
 
         System.out.println("Before Delete");
+
         SLLUitility.print(head);
 
         deleteFromEnd();
@@ -24,13 +25,13 @@ public class SLLDeleteFromEnd {
 
     private static void deleteFromEnd() {
 
-        if(head == null || head.getNext()==null){
-            head=null;
+        if (head == null || head.getNext() == null) {
+            head = null;
             return;
         }
 
         Node temp = head;
-        while(temp.getNext().getNext() != null){
+        while (temp.getNext().getNext() != null) {
             temp = temp.getNext();
         }
 
