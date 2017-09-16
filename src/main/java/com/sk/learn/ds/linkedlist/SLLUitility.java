@@ -43,4 +43,17 @@ public class SLLUitility {
 
         }
     }
+
+    public static int lenght(Node head){
+        if(head == null)return  -1;
+
+        Node temp = head;
+        int length = 0;
+        while(temp != null){
+            temp = temp.getNext();
+            length++;
+        }
+
+        return length;
+    }
 }
