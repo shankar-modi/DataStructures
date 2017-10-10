@@ -1,3 +1,3 @@
 # DataStructures
 
-Data Structures implementations
+Data Structure basic programs.
