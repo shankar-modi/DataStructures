@@ -38,6 +38,10 @@ public class InsertionSort {
             }
 
             arr[j] = key;
+//            System.out.println("when i :" + i);
+//            System.out.println(Arrays.toString(arr));
+
+
 
         }
 
